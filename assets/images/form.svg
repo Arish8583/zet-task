@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="455" height="538" viewBox="0 0 455 538">
+    <defs>
+        <linearGradient id="03igbkmffa" x1="50%" x2="50%" y1="2.692%" y2="100%">
+            <stop offset="0%" stop-color="#F97468" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#5454D4"/>
+        </linearGradient>
+        <filter id="sdeuq5obwb" width="154.1%" height="142.2%" x="-27%" y="-12.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="38" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="24.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.788925918 0"/>
+        </filter>
+        <rect id="g00fbf06xc" width="342" height="438.3" x="48.6" y=".9" rx="9"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-828 -196) translate(-208.8 15.3) translate(0 191.7) translate(1037.7)">
+                        <circle cx="219.6" cy="219.6" r="219.6" fill="#5454D4"/>
+                        <circle cx="231.3" cy="257.4" r="219.6" fill="#D8D8D8" fill-opacity="0" stroke="url(#03igbkmffa)" stroke-width="6.3"/>
+                        <g>
+                            <use fill="#000" filter="url(#sdeuq5obwb)" xlink:href="#g00fbf06xc"/>
+                            <use fill="#FFF" xlink:href="#g00fbf06xc"/>
+                        </g>
+                        <g transform="translate(76.5 24.3)">
+                            <rect width="287.1" height="63" y="9" fill="#FFF" stroke="#EAE9F2" stroke-width=".9" rx="9"/>
+                            <path fill="#FFF" d="M12.6 0.9H122.39999999999999V21.599999999999998H12.6z"/>
+                            <text fill="#696871" font-family="CircularStd-Book, Circular Std" font-size="16.2" font-weight="300" letter-spacing="-.506">
+                                <tspan x="21.6" y="16">Email address</tspan>
+                            </text>
+                            <text fill="#19191B" font-family="CircularStd-Book, Circular Std" font-size="18.9" font-weight="300" letter-spacing="-.591">
+                                <tspan x="21.6" y="47.8">contact@email.com</tspan>
+                            </text>
+                        </g>
+                        <g transform="translate(76.5 114.3)">
+                            <rect width="287.1" height="63" fill="#FFF" stroke="#EAE9F2" stroke-width=".9" rx="9"/>
+                            <text fill="#696871" font-family="CircularStd-Book, Circular Std" font-size="16.2" font-weight="300" letter-spacing="-.506">
+                                <tspan x="21.6" y="37.6">Company name</tspan>
+                            </text>
+                        </g>
+                        <g transform="translate(76.5 195.3)">
+                            <rect width="287.1" height="63" fill="#FFF" stroke="#EAE9F2" stroke-width=".9" rx="9"/>
+                            <text fill="#696871" font-family="CircularStd-Book, Circular Std" font-size="16.2" font-weight="300" letter-spacing="-.506">
+                                <tspan x="21.6" y="37.6">Company size</tspan>
+                            </text>
+                            <g fill="#696871" fill-rule="nonzero">
+                                <path d="M6.75 8.1c-.32 0-.638-.123-.881-.37L0 1.786 1.763 0 6.75 5.051 11.737 0 13.5 1.786 7.631 7.73c-.243.247-.562.37-.881.37z" transform="translate(257.4 27.9)"/>
+                            </g>
+                        </g>
+                        <g transform="translate(76.5 276.3)">
+                            <rect width="287.1" height="63" fill="#FFF" stroke="#EAE9F2" stroke-width=".9" rx="9"/>
+                            <text fill="#696871" font-family="CircularStd-Book, Circular Std" font-size="16.2" font-weight="300" letter-spacing="-.506">
+                                <tspan x="21.6" y="37.6">Yearly budget</tspan>
+                            </text>
+                            <g fill="#696871" fill-rule="nonzero">
+                                <path d="M6.75 8.1c-.32 0-.638-.123-.881-.37L0 1.786 1.763 0 6.75 5.051 11.737 0 13.5 1.786 7.631 7.73c-.243.247-.562.37-.881.37z" transform="translate(257.4 27.9)"/>
+                            </g>
+                        </g>
+                        <g transform="translate(76.5 356.4)">
+                            <rect width="287.1" height="54" fill="#F04037" stroke="#C31A12" stroke-width=".9" rx="9"/>
+                            <text fill="#FFF" font-family="CircularStd-Medium, Circular Std" font-size="18.9" font-weight="400" letter-spacing="-.591">
+                                <tspan x="77.314" y="34.3">Get Beta Access</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
