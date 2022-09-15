@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--bootstrap css-->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/frame4.css">
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+  <!-- bootstrap links-->
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <script type="text/javascript" src="assets/js/slim.min.js"></script> -->
+<script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+</head>
+<body >
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--navigation-->
+  <div class="container-fluid ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar sticky-top navbar-expand-lg ">
+            <div class="container">
+              <a class="navbar-brand logo" href="#">omega</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <i class="fa fa-bars" style="color: white;"></i>
+          </button>
+        
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                  <li class="nav-item active">
+                    <a class="nav-link menu"  href="#">Demo</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link menu"  href="#">Pages</a>
+                    <li class="nav-item">
+                      <a class="nav-link menu"  href="#">Support </a>
+                      
+                </ul>
+                <a class="custom-btn btn-10">Get Beta Access</a>
+
+                
+              </div>
+            </div>
+
+          </nav>
+
+        
+        </div>
+    
+      </div>
+    </div>
+  
+  </div>
+  <!---navigation-->
+  <section id="headone">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7" style="height: 100%;">
+          <h1 class="heading">Build your next landpages in 5 minutes
+          </h1>
+          <h2 class="headpara" style="padding-bottom: 25px;">Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</h2>
+        </div>
+        <div class="col-md-5">
+          <div class="Rectangle">
+            <h3 class="Sign-Up">
+              Sign Up
+            </h3>
+            <span class="No-credit-card-requi Text-Style-4">
+              No credit card required
+            </span>
+            <div id="error_message">
+           
+            </div>
+            <form action="" id="myform" onsubmit = "return validate();" style="margin-bottom: 17px;">
+              <div class="input_field">
+                <input type="text" placeholder="Email" id="email" class="Rectangleform">
+            </div>
+
+              <div class="input_field">
+                  <input type="text" placeholder="CompanyName" id="name" class="Rectangleform">
+              </div>
+              <div class="input_field">
+                  <input type="password" placeholder="pasword" id="subject" class="Rectangleform">
+              </div>
+            
+              <div class=" mt-3">
+                  <input type="submit" value="Get started" class="formbutton">
+              </div>
+            </form>
+            <a class="checknow pt-5"><span style="color:#696871;"> Dont have an account</span> Log in</a>
+    
+
+          </div>        </div>
+
+      </div>
+    </div>
+
+  </section>
+  <script>
+    function validate(){
+    var name = document.getElementById("name").value;
+    var subject = document.getElementById("subject").value;
+    var email = document.getElementById("email").value;
+    var error_message = document.getElementById("error_message");
+    
+    error_message.style.padding = "10px";
+    error_message.style.background = "red";
+    error_message.style.textAlign = "center";
+
+
+    
+    var text;
+    if(email.indexOf("@") == -1 || email.length < 6){
+      text = "Please Enter valid Email";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(name.length < 1){
+      text = "Please Enter valid Name";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(subject.length < 8){
+      text = "Please Enter Correct Password";
+      error_message.innerHTML = text;
+      return false;
+    }
+    if(subject.length < 8){
+      text = "Please Enter Correct Password";
+      error_message.innerHTML = text;
+      return false;
+    }
+
+
+    else{
+        alert("Form Submitted Successfully!");
+        return true;
+    
+
+    }
+  }
+  </script>
+
+  <section>
+    <img src="./assets/images/oval-copy-5.svg" class="img-fluid imgabsolute " style="position: absolute;" />
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12" style="height:100%;">
+          <h3 class="headertwo">Why Omega would be your best fit?</h3>
+          <h4 class="pheadparatwo">Not a part of a component yet.
+          </h4>
+
+        </div>
+        <div class="col-md-12 banner">
+          <div class="icon-div">
+            <img src="./assets/images/path.svg" class="img-fluid" />
+          </div>
+
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval"><img src="./assets/images/sidebar.svg" class="img-fluid"></div>
+          <h4 class="layouthead">Full responsive</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval" style="background-color: rgba(240, 64, 55, 0.1);"><img src="./assets/images/layout-11.svg" class="img-fluid" style="padding-left: 5px;"></div>
+          <h4 class="layouthead">Multiple Layouts</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval" style="background-color: rgba(254, 220, 90, 0.1);"><img src="./assets/images/spaceship.svg" style="padding-bottom: 10px;" class="img-fluid"></div>
+          <h4 class="layouthead">Faster Loading</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval" style="background-color: rgba(240, 64, 55, 0.1);"><img src="./assets/images/shape.svg" class="img-fluid" style="padding-left: 2px;"></div>
+          <h4 class="layouthead">Super Support</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval" style="background-color: rgba(254, 220, 90, 0.1);"><img src="./assets/images/pathnew.svg" style="padding-bottom: 10px;padding-left: 5px;" class="img-fluid"></div>
+          <h4 class="layouthead">Rich Documentation</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+        <div class="col-md-4" style="height: 100%;padding-bottom: 80px;">
+          <div class="oval"><img src="./assets/images/loop.svg" class="img-fluid" style="padding-bottom: 10px;"></div>
+          <h4 class="layouthead">Lifetime Updates</h4>
+          <p class="layoutpara">With lots of unique blocks, you can easily build a page without coding.</p>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+  </section>
+  <hr class="separator">
+  <section style="background-color: #19191b;padding-bottom: 40px;">
+    <div class="container mt-5" style="padding-top: 60px;">
+      <div class="row mt-5">
+        <div class="ovalnew"></div>
+        <div class="col-md-5">
+          <img src="./assets/images/try.png" class="img-fluid">
+
+        </div>
+        <div class="col-md-7">
+          <button class="btD" id="btD">New Feature Added!</button>
+          <h4 class="butheader">Drag and drop<br> every elements.</h4>
+          <h2 class="headpara">Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</h2>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="background-color: #1e1e20;padding-top: 50px;padding-bottom: 70px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="butheader" style="text-align: center;">Everything is easy</h4>
+          <h2 class="headpara" style="text-align: center;margin: auto;">Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</h2>
+
+        </div>
+        <div class="col-md-5 mt-5">
+          <img src="./assets/images/rectangleimg.jpg" width="500px" style="border-radius: 10px; height: 450px;" class="img-fluid">
+        </div>
+        <div class="col-md-7 mt-5">
+          <img src="./assets/images/rectangle-copy.jpg" style="border-radius: 10px; height: 450px;" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section style="background-color: #19191b;padding-top: 50px;padding-bottom: 70px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+        <h4 class="butheader" style="text-align: left;">50k+ users are using this landing page.</h4>
+        <h2 class="headpara" style="text-align: left;margin: auto; height: auto !important;width: 100% !important;">Create custom landing pages with Omega that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</h2><br>
+        <a class="custom-btn btn-10">Get Beta Access</a>
+
+
+
+      </div>
+      <div class="col-md-7">
+        <img src="./assets/images/fAQ.png" style="z-index: 100;position: relative;top: 15px; " class="img-fluid postive">
+        <div class="ovalforuser"></div>
+
+      </div>
+    </div>
+  </div></section>
+  <hr class="separator">
+  <section style="background-color: #19191b;padding-top: 50px;padding-bottom: 30px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="butheader" style="text-align: center;">Frequently Asked Question</h4>
+          <h2 class="headpara" style="text-align: center;margin: auto; height: auto !important;width: 100% !important;">Create custom landing pages with Omega that converts.</h2><br>
+  
+  
+  
+        </div>
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+
+        <div class="col-md-6" style="height: 100%;padding-bottom: 30px;">
+          <h4 class="layouthead" style="margin-left: 0px;text-align:left;">What’s gonna be your question?</h4>
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:left;">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+
+        </div>
+        <div class="col-md-12" style="height: 100%;">
+          <p class="layoutpara" style="width: 100%;height:100%;text-align:center;">Didn’t find your answer? <span style="color: #f04037 !important;">Contact Us Here</span> </p>
+
+        </div>
+
+
+      </div>
+    </div></section>
+    <section style="  background-color: rgb(30, 30, 32);padding-top: 50px;">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <div style="height: 70px;"></div>
+            <h3 class="butheader" style="margin-left: 0px;text-align:left;">Save tons of time.<br>
+              Get new landing page.</h3>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 imgnaback">
+            <a class="custom-btn btn-10 butpos">Get Beta Access</a>
+                    <img src="./assets/images/oval-copy-88.svg"  class="img-fluid yellowpos">
+
+
+
+          </div>
+        </div>
+
+
+      </div>
+      <img src="./assets/images/oval-copy-88.svg"  class="img-fluid dsino">
+
+
+    </section>
+    <section style="padding-top: 20px;padding-bottom: 10px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="logo">omega</h2>
+
+          </div>
+          <div class="col-md-5">
+            <a class="layoutpara">Support</a>&ensp;&ensp;
+            <a class="layoutpara">Privacy Policy</a>&ensp;&ensp;
+            <a class="layoutpara">Terms & Condition</a>&ensp;
+
+          </div>
+          <div class="col-md-3">
+            <a class="layoutpara">© 2020 UXTheme, All Rights Reserved</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+       
+   
+
+</body>
+</html>
+
+
